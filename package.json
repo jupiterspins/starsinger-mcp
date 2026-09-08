@@ -1,0 +1,53 @@
+{
+  "name": "starsinger-mcp",
+  "version": "0.2.1",
+  "mcpName": "io.github.jupiterspins/starsinger-mcp",
+  "description": "MCP server for StarSinger \u2014 make a finished AI song with real vocals from a brief (free daily song or a credit), and search/stream the AI music catalog",
+  "type": "module",
+  "bin": {
+    "starsinger-mcp": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "ai",
+    "ai-music",
+    "ai-song-generator",
+    "audio",
+    "catalog",
+    "mcp",
+    "model-context-protocol",
+    "music",
+    "music-generation",
+    "song-generator",
+    "starsinger",
+    "streaming",
+    "text-to-song",
+    "vocals"
+  ],
+  "author": "Veronata Inc.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jupiterspins/starsinger-mcp.git"
+  },
+  "homepage": "https://starsinger.ai",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "bugs": {
+    "url": "https://github.com/jupiterspins/starsinger-mcp/issues"
+  }
+}
