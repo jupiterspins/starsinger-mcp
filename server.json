@@ -21,5 +21,24 @@
         }
       ]
     }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "starsinger-mcp",
+      "version": "0.2.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "STARSINGER_API_KEY",
+          "description": "Your StarSinger API key from https://mcp.starsinger.ai",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true
+        }
+      ]
+    }
   ]
 }
