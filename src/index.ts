@@ -114,7 +114,7 @@ const VALID_MOODS = [
 
 const server = new McpServer({
   name: "starsinger",
-  version: "0.2.1",
+  version: "0.2.2",
 });
 
 // ============================================

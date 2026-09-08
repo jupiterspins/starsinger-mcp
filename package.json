@@ -1,6 +1,6 @@
 {
   "name": "starsinger-mcp",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "mcpName": "ai.starsinger/starsinger-mcp",
   "description": "MCP server for StarSinger \u2014 make a finished AI song with real vocals from a brief (free daily song or a credit), and search/stream the AI music catalog",
   "type": "module",
